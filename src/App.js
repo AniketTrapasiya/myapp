@@ -126,7 +126,7 @@ class Admission extends Component {
                                 placeholder="Your name.."    
                                 className={studNameErr ? ' showError' : ''} />    
                             {studNameErr &&    
-                                <div style={{ color: "solidgreen", paddingBottom: 10 }}>{studNameErr}</div>    
+                                <div style={{ color: "white", paddingBottom: 10 }}>{studNameErr}</div>    
                             }    
     
                         </div>    
