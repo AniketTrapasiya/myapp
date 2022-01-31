@@ -81,7 +81,7 @@ class Admission extends Component {
             var passPattern = /^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).*$/;    
             if (!passPattern.test(password)) {    
                 formIsValid = false;    
-                formErrors["phoneNumberErr"] = "Invalid phone number.";    
+                formErrors["passwordErr"] = "Invalid Password.";         
             }   
         } 
     
